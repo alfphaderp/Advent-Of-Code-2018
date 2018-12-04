@@ -1,4 +1,4 @@
-package day1;
+package aoc2018.day1;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 public class Part2 {	
 	public static void main(String[] args) throws IOException {
-		List<Integer> frequencyChanges = Files.lines(Paths.get("day/1/input"))
+		List<Integer> frequencyChanges = Files.lines(Paths.get("2018/day/1/input"))
 											  .parallel()
 											  .map(Integer::parseInt)
 											  .collect(Collectors.toList());

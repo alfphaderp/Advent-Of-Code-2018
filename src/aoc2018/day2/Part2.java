@@ -1,4 +1,4 @@
-package day2;
+package aoc2018.day2;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 public class Part2 {
 	public static void main(String[] args) throws IOException {
-		List<String> labels = Files.lines(Paths.get("day/2/input"))
+		List<String> labels = Files.lines(Paths.get("2018/day/2/input"))
 				   .parallel()
 				   .collect(Collectors.toList());
 		
